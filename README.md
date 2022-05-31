@@ -26,4 +26,4 @@
 #### Copy Pasters You Can Copy This But Must Give Credits ...
 
 ### Owner Of This Repository
-[![Aditya Halder](https://telegra.ph/file/da8dd4de036338842174c.jpg)](https://t.me/AdityaHalder)
+[![Aditya Halder]()](https://t.me/AdityaHalder)
