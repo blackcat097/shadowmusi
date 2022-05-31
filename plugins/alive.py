@@ -74,7 +74,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/a4f53bbd7ef108b714c16.jpg",
+        photo=f"https://telegra.ph/file/da8dd4de036338842174c.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
