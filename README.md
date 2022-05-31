@@ -26,4 +26,4 @@
 #### Copy Pasters You Can Copy This But Must Give Credits ...
 
 ### Owner Of This Repository
-[![Aditya Halder]()](https://t.me/AdityaHalder)
+[![ᴋᴀɴɴᴀ]()](https://t.me/TgShadow_fighter)
