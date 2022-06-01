@@ -47,7 +47,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ •sʜᴀᴅᴏᴡ• ➕", url=f"https://t.me/TgShadow_fighter")
+                        " •sʜᴀᴅᴏᴡ• ", url=f"https://t.me/TgShadow_fighter")
                 ]
                 
            ]
