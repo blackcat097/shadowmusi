@@ -202,7 +202,7 @@ async def commands_set(_, query: CallbackQuery):
             InlineKeyboardButton("sᴏᴜʀᴄᴇ", callback_data="source"), 
             ],[
             InlineKeyboardButton("ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="home_start"), 
-            ],[
+            ]]
             ) 
         ) 
     
