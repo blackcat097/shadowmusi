@@ -57,13 +57,12 @@ async def start_(client: Client, message: Message):
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴛᴇᴀᴍ sʜᴀᴅᴏᴡ](https://t.me/tgshadow_fighters) **
 """,
     reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("• sʜᴀᴅᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ", callback_data="command_list"), 
+            InlineKeyboardButton("sʜᴀᴅᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ", callback_data="command_list"), 
             ],[
-            InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url="https://t.me/tgshadow_fighters"), 
-            InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ", url="https://t.me/teamshadowprojects"), 
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/tgshadow_fighters"), 
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/teamshadowprojects"), 
             ],[
-            InlineKeyboardButton("• ɪɴғᴏʀᴍᴀᴛɪᴏɴ", callback_data="info"), 
-            InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ", url="https://telegram.me/Santhoshpodili2"), 
+            InlineKeyboardButton("ɪɴғᴏʀᴍᴀᴛɪᴏɴ", callback_data="info"), 
             ],[
             InlineKeyboardButton("✚ ᴘʟᴇᴀsᴇ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ]]
@@ -80,7 +79,7 @@ async def alive(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "(: ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="info")
+                        "ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="info")
                 ]
             ]
         ),
@@ -167,13 +166,12 @@ async def start_set(_, query: CallbackQuery):
 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ᴛᴇᴀᴍ sʜᴀᴅᴏᴡ](https://t.me/tgshadow_fighters) !**
 """, 
     reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("• sʜᴀᴅᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ", callback_data="command_list"), 
+            InlineKeyboardButton("sʜᴀᴅᴏᴡ ᴄᴏᴍᴍᴀɴᴅs ʟɪsᴛ", callback_data="command_list"), 
             ],[
-            InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url="https://t.me/tgshadow_fighters"), 
-            InlineKeyboardButton("• ᴄʜᴀɴɴᴇʟ", url="https://t.me/teamshadowprojects"), 
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/tgshadow_fighters"), 
+            InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url="https://t.me/teamshadowprojects"), 
             ],[
-            InlineKeyboardButton("• ɪɴғᴏʀᴍᴀᴛɪᴏɴ", callback_data="info"), 
-            InlineKeyboardButton("• ᴅᴏɴᴀᴛᴇ", url="https://telegram.me/Santhoshpodili2"), 
+            InlineKeyboardButton("ɪɴғᴏʀᴍᴀᴛɪᴏɴ", callback_data="info"), 
             ],[
             InlineKeyboardButton("✚ ᴘʟᴇᴀsᴇ ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ✚", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ]]
@@ -190,23 +188,21 @@ async def commands_set(_, query: CallbackQuery):
 ➠ ᴛʜɪs ʙᴏᴛ ᴍᴀᴅᴇ ᴀɴᴅ ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ [ᴛᴇᴀᴍ sʜᴀᴅᴏᴡ ᴘʀᴏᴊᴇᴄᴛs](https://t.me/tgshadow_fighters) 
 """, 
     reply_markup=InlineKeyboardMarkup( [[
-            InlineKeyboardButton("•ɢᴇɴᴇʀᴀʟ ᴄᴏᴍᴍᴀɴᴅs•", callback_data="general_list"), 
+            InlineKeyboardButton("ᴜsᴇʀs ᴄᴏᴍᴍᴀɴᴅs•", callback_data="general_list"), 
             ],[
-            InlineKeyboardButton("•sᴋɪᴘ•", callback_data="skip_list"), 
-            InlineKeyboardButton("•ᴘᴀᴜsᴇ•", callback_data="pause_list"), 
+            InlineKeyboardButton("sᴋɪᴘ", callback_data="skip_list"), 
+            InlineKeyboardButton("ᴘᴀᴜsᴇ", callback_data="pause_list"), 
             ],[
-            InlineKeyboardButton("•ʀᴇsᴜᴍᴇ•", callback_data="resume_list"), 
-            InlineKeyboardButton("•sᴛᴏᴘ•", callback_data="stop_list"), 
+            InlineKeyboardButton("ʀᴇsᴜᴍᴇ", callback_data="resume_list"), 
+            InlineKeyboardButton("sᴛᴏᴘ", callback_data="stop_list"), 
             ],[
-            InlineKeyboardButton("•ᴘʟᴀʏ•", callback_data="play_list"), 
-            InlineKeyboardButton("•ᴋɴᴏᴡ ʏᴏᴜʀ ᴄʜᴀᴛ ɪᴅ•", callback_data="id"), 
+            InlineKeyboardButton("ᴘʟᴀʏ", callback_data="play_list"), 
+            InlineKeyboardButton("ᴋɴᴏᴡ ʏᴏᴜʀ ᴄʜᴀᴛ ɪᴅ", callback_data="id"), 
             ],[
-            InlineKeyboardButton("•sᴏᴜʀᴄᴇ•", callback_data="source"), 
+            InlineKeyboardButton("sᴏᴜʀᴄᴇ", callback_data="source"), 
             ],[
-            InlineKeyboardButton("•◁•", callback_data="home_start"), 
+            InlineKeyboardButton("ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="home_start"), 
             ],[
-            InlineKeyboardButton("🗑 ʙɪɴ", callback_data="close_panel")
-            ]]
             ) 
         ) 
     
@@ -216,19 +212,28 @@ async def general_list(_, query: CallbackQuery):
     await query.answer("general commands")
     await query.edit_message_text(
         f"""🥳 ʜᴇʟʟᴏ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !
-➠ /play (sᴏɴɢ ɴᴀᴍᴇ/ʟɪɴᴋ) - ᴘʟᴀʏ ᴍᴜsɪᴄ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ
-➠ /song (ǫᴜᴇʀʏ) - ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ
-➠ /search (ǫᴜᴇʀʏ) - sᴇᴀʀᴄʜ ᴀ ʏᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ ʟɪɴᴋ
-➠ /ping - sʜᴏᴡ ᴛʜᴇ ʙᴏᴛ ᴘɪɴɢ sᴛᴀᴛᴜs
-➠ /uptime - sʜᴏᴡ ᴛʜᴇ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ sᴛᴀᴛᴜs
-➠ /alive - sʜᴏᴡ ᴛʜᴇ ʙᴏᴛ ᴀʟɪᴠᴇ ɪɴғᴏ (ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ)
-➠ /help - ᴛᴏ sʜᴏᴡ ʜᴇʟᴘ ᴍᴇssᴀɢᴇ (ғᴜʟʟ ʙᴏᴛ ɢᴜɪᴅᴇ)
-⚡️ __ᴘᴏᴡᴇʀᴇᴅ ʙʏ {BOT_NAME} ᴀɪ__""",
+𝟷️⃣ /ᴘʟᴀʏ - ᴘʟᴀʏ ᴍᴜꜱɪᴄ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ   
+
+𝟸️⃣ /sᴏɴɢ - ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴏɴɢ ꜰʀᴏᴍ ʏᴛ
+
+𝟹️⃣ /ᴀʟɪᴠᴇ - ꜱʜᴏᴡ ᴛʜᴇ ʙᴏᴛ ᴀʟɪᴠᴇ ɪɴꜰᴏ
+
+𝟺️⃣ /ᴘᴀᴜsᴇ - ᴘᴀᴜꜱᴇ ᴛʜᴇ ꜱᴛʀᴇᴀᴍ 
+
+𝟻️⃣ /ʀᴇsᴜᴍᴇ - ʀᴇꜱᴜᴍᴇ ᴛʜᴇ ꜱᴛʀᴇᴀᴍ 
+
+𝟼️⃣ /sᴋɪᴘ - ꜱᴡɪᴛᴄʜ ᴛᴏ ɴᴇxᴛ ꜱᴛʀᴇᴀᴍ 
+
+𝟽️⃣ /sᴛᴏᴘ - ꜱᴛᴏᴘ ᴛʜᴇ ꜱᴛʀᴇᴀᴍɪɴɢ
+
+𝟾️⃣ /ʀᴇʟᴏᴀᴅ - ᴄʟᴇᴀʀ ᴀᴅᴍɪɴ ᴄᴀᴄʜᴇ
+
+ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴛᴇᴀᴍ sʜᴀᴅᴏᴡ""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "•◁•", callback_data="command_list")
+                        "ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="command_list")
                 ]
             ]
         ),
@@ -246,7 +251,7 @@ async def skip_list(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "•◁•", callback_data="command_list")
+                        "ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="command_list")
                 ]
             ]
         ),
@@ -264,7 +269,7 @@ async def pause_list(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "•◁•", callback_data="command_list")
+                        "ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="command_list")
                 ]
             ]
         ),
@@ -282,7 +287,7 @@ async def resume_list(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "•◁•", callback_data="command_list")
+                        "ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="command_list")
                 ]
             ]
         ),
@@ -300,7 +305,7 @@ async def stop_list(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "•◁•", callback_data="command_list")
+                        "ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="command_list")
                 ]
             ]
         ),
@@ -318,7 +323,7 @@ async def play_list(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "•◁•", callback_data="command_list")
+                        "ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="command_list")
                 ]
             ]
         ),
@@ -332,7 +337,7 @@ async def id(_, query: CallbackQuery):
         f"""👋🏻 **ʜᴇʟʟᴏ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
 ➠ **/id ᴛʏᴘᴇ ɪᴅ ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ ᴀʀᴇ ᴘᴇʀsᴏɴᴀʟ !**""", 
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("•◁•", callback_data="command_list")]]
+            [[InlineKeyboardButton("ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="command_list")]]
         ),
     )
 
@@ -344,7 +349,7 @@ async def source(_, query: CallbackQuery):
         f"""❣️ **ʜᴇʟʟᴏ [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) !**
 ➠  **sʜᴀᴅᴏᴡ ᴍᴜsɪᴄ ʙᴏᴛ ɪs ᴄᴏᴍᴘʟᴇᴛᴇ ᴄʟᴏsᴇᴅ sᴏᴜʀᴄᴇ ʀᴇᴘᴏʀᴛɪɴɢ ᴀɴʏ ʙᴜɢs ᴏʀ ʀᴇᴘᴏʀᴛs ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴠ [ᴛᴇᴀᴍ sʜᴀᴅᴏᴡ](https://t.me/tgshadow_fighters)!**""", 
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("•◁•", callback_data="command_list")]]
+            [[InlineKeyboardButton("ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="command_list")]]
         ),
     )
 
@@ -359,7 +364,7 @@ async def info(_, query: CallbackQuery):
 ❣️ © ᴏɴ ʙᴇʜᴀʟғ ᴏғ [ᴛᴇᴀᴍ sʜᴀᴅᴏᴡ](https://t.me/tgshadow_fighters)
 """, 
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("◁", callback_data="home_start")]]
+            [[InlineKeyboardButton("ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ", callback_data="home_start")]]
         ),
     ) 
 
@@ -409,11 +414,11 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("• ᴛᴇᴀᴍ sʜᴀᴅᴏᴡ ᴘʀᴏᴊᴇᴄᴛs", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                            InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}")
+                            InlineKeyboardButton("ᴛᴇᴀᴍ sʜᴀᴅᴏᴡ ᴘʀᴏᴊᴇᴄᴛs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}")
                         ],
                         [
-                            InlineKeyboardButton("🗑 ʙɪɴ", callback_data="set_close")
+                            InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="set_close")
                         ]
                     ]
                 )
