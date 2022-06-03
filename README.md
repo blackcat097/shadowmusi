@@ -8,7 +8,7 @@
 
 ### Deploy To Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/blackcat097/shadowmusic&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/blackcat097/shadowmusi&envs=API_ID,API_HASH,BOT_TOKEN,STRING_SESSION)
 
 
 ### Deploy To Heroku
